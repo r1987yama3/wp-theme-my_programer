@@ -1,0 +1,714 @@
+/* 
+Theme Name: Programing
+Theme URI: http://www.yama3.biz/
+Description: programer oriented template
+Version: 1.0
+Author: yama3
+Author URI: http://www.yama3.biz/
+*/
+
+hr.clear {
+    clear: both;
+}
+
+
+/* ------ PAGE LAYOUT CODE ------ */
+
+body {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	padding: 0; 
+	color: #333;
+    background-color: #000;
+    background-image: url( "./images/bodybg.png" );
+    background-repeat: repeat-x;
+	text-align: center;
+	}
+	
+#page {
+	text-align: left;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	width: 900px;
+    background-color: #fff;
+	}
+
+#logo {
+	background-image: url('images/logo.jpg');
+    background-repeat: repeat-y;
+    background-position: 0px 0px;
+}
+
+#header {
+	height: 200px;
+    background-position: 0px 0px;
+	width: 900px;
+	text-align: left;
+	}
+
+#header > a {
+    width: 700px;
+    height: 200px;
+    display: block;
+    text-indent: -9999px;
+    float: left;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li {
+    float: left;
+    border: 1px solid #90dc45;
+}
+
+#menu ul li a {
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+    background-color: #d3d3d3;
+}
+
+#menu ul li a:hover, #menu ul li a:active {
+    background-color: #f0e68c;
+}
+
+#header #banner-head {
+    width: 200px;
+    height: 200px;
+    float: right;
+    }
+	
+#footer {
+	width: 900px;
+    height: 70px;
+    margin: 0px auto;
+    padding: 15px auto;
+	border: none;
+	text-align: center;
+	clear: both;
+    background-color: #ff4500;
+	}
+
+.twitter {
+    background-image: url( "images/icons/twitter.png" );
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.feed {
+    background-image: url( "images/icons/rss1.png" );
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+#footer p a.feed {
+    margin-left: 20px;
+}
+
+.post h2 {
+    background-image: url( "images/h2line.jpg" );
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.post {
+	margin: 0;
+	text-align: justify;
+	}
+
+.post hr {
+	display: block;
+	}
+	
+.postp {
+	margin: 0;
+	text-align: justify;
+	padding-left: 60px;
+	}
+
+.postp hr {
+	display: block;
+	}
+
+.postcontain {
+	width: 550px;
+	margin: 0;
+	}
+	
+#date {
+	background: url('images/icons/calendar_view_month.png') no-repeat left top;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: middle;
+	}
+
+hr {
+	display: none;
+	}
+
+.narrowcolumn {
+	float: left;
+	padding: 15px 0 20px 15px;
+	margin: 0px 0 0;
+	width: 500px;
+	text-align: center;
+	}
+	
+.narrowcolumn .post {
+	margin: 0;
+	}
+	
+.narrowcolumn .postmetadata {
+	margin: 30px 0;
+	}
+	
+.postmetadata {
+	width: 280px;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 1px dotted;
+	border-top: 1px dotted;
+	text-align: justify;
+	}
+
+.narrowcolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+	}
+
+.narrowcolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+	}
+	
+h2.pagetitle {
+	font-size: 1.6em;
+	}
+	
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+	
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+	
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #555;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+	
+
+#vcontain
+{
+	padding: 10px 0 0 20px;
+}
+
+
+/* Begin Sidebar */
+#sidebar
+{
+	padding: 0px;
+    float: right;
+    margin-right: 15px;
+	width: 360px;
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+
+#sidebar #left_side {
+    width: 190px;
+    float: left;
+}
+
+#sidebar #right_side {
+    width: 160px;
+    float: right;
+    height: 100px;
+}
+
+/* End Sidebar */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 4px solid #666;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+
+/* Begin Lists (Special stylized non-IE bullets) */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 10px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00A6 \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 30px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+/* End Entry Lists */
+
+#rss {
+	margin-top: 20px;
+	margin-left: -12px;
+	position: relative;
+	text-align: left;
+	}
+	
+#rss a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #444;
+	}
+	
+* html #rss {
+	margin: 0 0 0 0;
+}
+
+
+/* Begin Form Elements */
+#sarea {
+}
+
+* html #sarea {
+	margin: 0 0 0 0;
+}
+
+#searchbox {
+	width: 100px;
+    float: left;
+	color: #555;
+}
+#go {
+	width: 70px;
+    float: right;
+}
+
+
+#sidebar #searchform #s {
+	width: 100px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* ------ TEXT STYLING ------ */
+
+a, h2 a:hover, h3 a:hover {
+	color: #555;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #444;
+	text-decoration: underline;
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
+	text-decoration: none;
+	color: #333;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #333;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.postinfo {
+	font-size: 10px;
+	margin-top: -10px;
+	margin-bottom: 25px;
+    text-align: right;
+	}
+
+#sidebar #left_side h2 {
+    background: url(images/titlebox190.jpg) no-repeat;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 190px;
+    height: 32px;
+    text-align: left;
+}
+
+#sidebar #right_side h2 {
+    background: url(images/titlebox160.jpg) no-repeat;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 160px;
+    height: 32px;
+    text-align: left;
+}
+
+
+.entry p a:visited {
+	color: #666;
+	}
+#titles {
+	position: relative;
+	width: 450px;
+	height: 150px;
+	text-align: center;
+	float: left;
+}
+
+.btitle {
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 50px;
+	padding-left: 0px;
+	color: #444;
+	}
+	
+.btitle a {
+	text-decoration: none;
+	color: #444;
+	}
+
+.stitle {
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-left: 0px;
+	color: #444;
+	}
+
+.ad_post {
+    width: 468px;
+    margin: 10px auto;
+    border-top: 1px dashed #90dc45;
+    border-bottom: 1px dashed #90dc45;
+    padding: 5px 0px;
+}
+
+h3 {
+    background-image: url( "./images/h3line2.png" );
+    background-repeat: repeat;
+    padding: 5px 10px 5px 20px;
+    border-bottom: 2px solid #F70729;
+}
+
+h4 {
+    color: #000099;
+    padding-left: 10px;
+    border-width: 0px 0px 2px 10px;
+    border-style: solid;
+    border-color: #9999ff;
+    line-height: 100%;
+}
+
+.more-link {
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+    background-image: url( "./images/continue.png" );
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.more-link:link, .more-link:visited {
+    border: 1px solid #fff;
+}
+
+.more-link:hover, .more-link:active {
+    border: 1px solid #90dc45;
+}
+
+
+
+.ddsg-wrapper > ul > li {
+    border-left: 3px solid #90dc45;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Amazon 商品リンク（g-tools_table） */
+.g-tools_table .g-tools_title {
+    font-size: 1.3em;
+    border-bottom: 2px solid #4590dc;
+}
+
+/*
+.g-tools_table .g-tools_img {
+    margin: 20px;
+}
+*/
+
+.g-tools_by {
+    display: none;
+}
+.g-tools_table tr td {
+    padding: 10px;
+}
+
+
+
+
+
+
